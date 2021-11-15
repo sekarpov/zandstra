@@ -11,7 +11,8 @@
     },
     "require": {
         "php": ">=7.4",
-        "roave/security-advisories": "dev-master"
+        "roave/security-advisories": "dev-master",
+        "ext-simplexml": "*"
     },
     "autoload": {
         "psr-4": {

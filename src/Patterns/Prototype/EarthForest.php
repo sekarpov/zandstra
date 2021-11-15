@@ -6,5 +6,8 @@ namespace DesignPatterns\Prototype;
 
 class EarthForest extends Forest
 {
-
+    public function euou()
+    {
+        new \DesignPatterns\DependencyInjection\BloggsApptEncoder();
+    }
 }

@@ -1,0 +1,12 @@
+<objects>
+    <class name="TerrainFactory">
+        <arg num="0" inst="EarchSea" />
+        <arg num="1" inst="EarchPlains" />
+        <arg num="2" inst="EarchForest" />
+    </class>
+
+    <class name="AppointmentMaker2">
+<!--        <arg num="0" inst="MegaApptEncoder" />-->
+        <arg num="0" inst="BloggsApptEncoder" />
+    </class>
+</objects>
