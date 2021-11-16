@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "DesignPatterns\\": "src/Patterns"
+            "DesignPatterns\\": "src/Creational"
         }
     }
 }
