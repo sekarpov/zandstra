@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace DesignPatterns\ServiceLocator;
+namespace DesignPatterns\Creational\ServiceLocator;
 
-use DesignPatterns\AbstractFactory\BloggsCommsManager;
-use DesignPatterns\AbstractFactory\CommsManager;
-use DesignPatterns\AbstractFactory\MegaCommsManager;
+use DesignPatterns\Creational\AbstractFactory\BloggsCommsManager;
+use DesignPatterns\Creational\AbstractFactory\CommsManager;
+use DesignPatterns\Creational\AbstractFactory\MegaCommsManager;
 
 class AppConfig
 {

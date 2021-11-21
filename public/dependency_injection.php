@@ -1,6 +1,6 @@
 <?php
 
-use DesignPatterns\DependencyInjection\ObjectAssembler;
+use DesignPatterns\Creational\DependencyInjection\ObjectAssembler;
 
 chdir(dirname(__DIR__));
 require 'vendor/autoload.php';

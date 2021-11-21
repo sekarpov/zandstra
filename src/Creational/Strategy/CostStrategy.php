@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace DesignPatterns\Strategy;
+namespace DesignPatterns\Creational\Strategy;
 
-use DesignPatterns\Strategy\Lesson;
+use DesignPatterns\Creational\Strategy\Lesson;
 
 abstract class CostStrategy
 {

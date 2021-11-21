@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DesignPatterns\DependencyInjection;
+namespace DesignPatterns\Creational\DependencyInjection;
 
 class ObjectAssembler
 {
@@ -27,10 +27,10 @@ class ObjectAssembler
                 $expandedargs = [];
 
                 foreach ($args as $arg) {
-                    $arg = '\DesignPatterns\DependencyInjection\\' . $arg;
+                    $arg = '\DesignPatterns\Creational\DependencyInjection\\' . $arg;
                     $expandedargs[] = new $arg();
                 }
-                $rclass = new \ReflectionClass('\DesignPatterns\DependencyInjection\\' . $name);
+                $rclass = new \ReflectionClass('\DesignPatterns\Creational\DependencyInjection\\' . $name);
                 return $rclass->newInstanceArgs($expandedargs);
             };
         }

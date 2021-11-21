@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace DesignPatterns\Strategy;
+namespace DesignPatterns\Creational\Strategy;
 
-use DesignPatterns\Strategy\CostStrategy;
-use DesignPatterns\Strategy\Lesson;
+use DesignPatterns\Creational\Strategy\CostStrategy;
+use DesignPatterns\Creational\Strategy\Lesson;
 
 class TimeCostStrategy extends CostStrategy
 {

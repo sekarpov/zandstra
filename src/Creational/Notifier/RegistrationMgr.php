@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace DesignPatterns\Notifier;
+namespace DesignPatterns\Creational\Notifier;
 
-use DesignPatterns\Strategy\Lesson;
+use DesignPatterns\Creational\Strategy\Lesson;
 
 class RegistrationMgr
 {

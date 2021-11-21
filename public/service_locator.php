@@ -1,6 +1,6 @@
 <?php
 
-use DesignPatterns\ServiceLocator\AppConfig;
+use DesignPatterns\Creational\ServiceLocator\AppConfig;
 
 chdir(dirname(__DIR__));
 require 'vendor/autoload.php';

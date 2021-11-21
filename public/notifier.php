@@ -1,10 +1,10 @@
 <?php
 
-use DesignPatterns\Notifier\RegistrationMgr;
-use DesignPatterns\Strategy\FixedCostStrategy;
-use DesignPatterns\Strategy\Lecture;
-use DesignPatterns\Strategy\Seminar;
-use DesignPatterns\Strategy\TimeCostStrategy;
+use DesignPatterns\Creational\Notifier\RegistrationMgr;
+use DesignPatterns\Creational\Strategy\FixedCostStrategy;
+use DesignPatterns\Creational\Strategy\Lecture;
+use DesignPatterns\Creational\Strategy\Seminar;
+use DesignPatterns\Creational\Strategy\TimeCostStrategy;
 
 chdir(dirname(__DIR__));
 require 'vendor/autoload.php';

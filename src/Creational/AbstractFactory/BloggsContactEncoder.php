@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DesignPatterns\AbstractFactory;
+namespace DesignPatterns\Creational\AbstractFactory;
 
 class BloggsContactEncoder extends ContactEncoder
 {

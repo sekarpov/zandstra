@@ -2,12 +2,12 @@
 
 declare(strict_types=1);
 
-namespace DesignPatterns\Prototype;
+namespace DesignPatterns\Creational\Prototype;
 
 class EarthForest extends Forest
 {
     public function euou()
     {
-        new \DesignPatterns\DependencyInjection\BloggsApptEncoder();
+        new \DesignPatterns\Creational\DependencyInjection\BloggsApptEncoder();
     }
 }

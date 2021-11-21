@@ -1,9 +1,9 @@
 <?php
 
-use DesignPatterns\Prototype\EarthForest;
-use DesignPatterns\Prototype\EarthPlains;
-use DesignPatterns\Prototype\EarthSea;
-use DesignPatterns\Prototype\TerrainFactory;
+use DesignPatterns\Creational\Prototype\EarthForest;
+use DesignPatterns\Creational\Prototype\EarthPlains;
+use DesignPatterns\Creational\Prototype\EarthSea;
+use DesignPatterns\Creational\Prototype\TerrainFactory;
 
 chdir(dirname(__DIR__));
 require 'vendor/autoload.php';

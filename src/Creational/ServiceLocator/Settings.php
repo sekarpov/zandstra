@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DesignPatterns\ServiceLocator;
+namespace DesignPatterns\Creational\ServiceLocator;
 
 class Settings
 {

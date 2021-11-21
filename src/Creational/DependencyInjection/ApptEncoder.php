@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DesignPatterns\DependencyInjection;
+namespace DesignPatterns\Creational\DependencyInjection;
 
 abstract class ApptEncoder
 {

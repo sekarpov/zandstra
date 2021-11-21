@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DesignPatterns\Notifier;
+namespace DesignPatterns\Creational\Notifier;
 
 abstract class Notifier
 {

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DesignPatterns\DependencyInjection;
+namespace DesignPatterns\Creational\DependencyInjection;
 
 class BloggsApptEncoder extends ApptEncoder
 {

@@ -1,6 +1,6 @@
 <?php
 
-use DesignPatterns\Singleton\Preferences;
+use DesignPatterns\Creational\Singleton\Preferences;
 
 chdir(dirname(__DIR__));
 require 'vendor/autoload.php';

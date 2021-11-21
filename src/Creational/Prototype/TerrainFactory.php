@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace DesignPatterns\Prototype;
+namespace DesignPatterns\Creational\Prototype;
 
 class TerrainFactory
 {

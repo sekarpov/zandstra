@@ -1,7 +1,7 @@
 <?php
 
-use DesignPatterns\AbstractFactory\BloggsCommsManager;
-use DesignPatterns\AbstractFactory\MegaCommsManager;
+use DesignPatterns\Creational\AbstractFactory\BloggsCommsManager;
+use DesignPatterns\Creational\AbstractFactory\MegaCommsManager;
 
 chdir(dirname(__DIR__));
 require 'vendor/autoload.php';
